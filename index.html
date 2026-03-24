@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776; </label>
+
+            <ul class="menu">
+
+                <li><a href="#index">Accueil</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#a propos">A propos</a></li>
+                <li><a href="#parcours">Parcours</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="index">
+            <h1>GLORIA ESTHER MAFOUNGUI MOUCKODA</h1>
+            <h2>Etudiante en Licence 1 Génie Logiciel Administration et Réseau</h2>
+            <p>
+                Etudiante en informatique passionné par le développement web et l'analyse de données
+            </p>
+            <button> <a href="#projets">Voir mes projets</a></button>
+    </main>
+    
+    </section>
+
+    <section id="a propos">
+        <h2>A propos</h2>
+        <div class="about-content">
+        <img src="./image/image.png" alt="Ma photo" class="photo-profil" width="300">
+        <p>
+            Je suis une étudiante en informatique passionné par les nouvelles technologies et le développement web.
+            Motivé,
+            curieuse,j'aime apprendre, expérimenter et améliorer mes compétences en programation afin de créer des
+            projets
+            utiles et innovants. Mon objectif est de devenir une développeuse compétente , capable de concevoir des
+            applications et des sites web.
+        </p>
+
+        <div class="competences">
+
+            <h3>Mes compétences</h3>
+
+            <div class="skill">
+                <span>HTML-60%</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>CSS-40%</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Word-60%</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Algorithme-30%</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 30%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Concept réseau-30%</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 30%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Architecture des ordinateurs-25%</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 25%;"></div>
+                </div>
+            </div>
+                    </div>
+            <div class="information-academiques"> <br>
+                <h3>Informations académiques</h3>
+                <p>Filière: Génie logiciel Administration et réseau</p>
+                <p>Université: Ecole Supérieure de Technologie et de Management (ESTM)</p>
+                <p>Année: 2025-2026</p>
+            </div>
+    </section>
+
+    <section id="projets">
+        <div class="projets-grid ">
+            <article class="projet-card">
+                   <h2>Mes Réalisations</h2>
+                <h3>Stade Abdoulaye Wade</h3>
+                <img src="./image/Stade-wade.png"
+                    alt="capture d'écran du projet" width="40%">
+                <p>Conception et développement d'une application d'une application pour la gestion des évènements
+                    sportifs au stade Abdoulaye Wade.</p>
+
+                <div class="technologies">
+                    <span class="badge html">HTML</span>
+                    <span class="badge css">CSS</span>
+                </div>
+                <a href="/04-cours/pages/stade.html">Voir le projet stade</a>
+        </div>
+        </article>
+
+        <article class="projet-card">
+            <h3>Topologie Réseau Lan Cisco</h3>
+            <img src="./image/Cisco-Packet.png"
+                alt="capture d'ecran packet tracer" width="40%">
+            <p>Conception d'un réseau locale (LAN) utilisant un switch et un Hub pour connecter plusieurs terminaux. Ce
+                projet inclut la configuration des équipements et la mise en place d'un plan d'adressage IP cohérent</p>
+
+            <div class="technologies">
+                <span class="badge network">Cisco</span>
+                <span class="badge ip">Networking</span>
+                <span class="badge pt">Packet Tracer</span>
+            </div>
+            <p class="mention-local"> <em>(projet disponible en local via Cisco Packet Tracer)</em></p>
+        </article>
+
+        <article class="projet-card">
+            <h3>Lecteur Multimédia</h3>
+            <img src="./image/lecteur.png" alt="capture d'ecran lecteur" width="40%">
+            <p>Un lecteur audio interactif réalisé en HTML et CSS. il permet de lire des fichiers multimédias
+                directement sur le navigateur.</p>
+            <div class="technologies">
+                <span class="badge html">HTML</span>
+                <span class="badge css">CSS</span>
+            </div>
+            <p class="mention-local"><em>(projet disponible en local via dossier application)</em></p>
+        </article>
+
+        <article class="projet-card">
+            <h3>Liste des étudiants</h3>
+            <img src="./image/tableau.png" alt="capture d'écran"
+                width="70%">
+            <p>Une page affichant un tableau de données d'étudiants avec une intégration en arrière-plan stylisé et une
+                structure de donnéés claire.</p>
+            <div class="technologies">
+                <span class="badge html">HTML</span>
+                <span class="badge css">CSS</span>
+                <span class="badge design">Design</span>
+            </div>
+            <a href="../07-cours/table.html">Voir le projet du tableau </a>
+        </article>
+    </section>
+
+    <section id="parcours">
+        <h3>Mon parcours</h3>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h4>Obtention du baccalauréat</h4>
+                    <p>Réussite de l'examen de fin d'études secondaires, ouvrant la voie aux études supérieures en
+                        informatique </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2025</div>
+                <div class="timeline-content">
+                    <h4>Inscription à l'université</h4>
+                    <p>Début du cursus en Génie Logiciel et Administration Réseau pour acquérir des bases solides</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2026</div>
+                <div class="timeline-content">
+                    <h4>Licence 1 en cours</h4>
+                    <p>Apprentissage du développement web(HTML/CSS), des réseaux Cisco et de l'architecture(coversion
+                        binaire/montage d'un pc)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h3>Contactez-moi</h3>
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="form-group">
+    <label for="nom">Nom</label>
+    <input type="text" id="nom" name="nom" placeholder="nom" required>
+          </div>
+          <div class="form-group">
+<label for="email">Email</label>
+<input type="email" id="email" name="email" placeholder="email" required>
+          </div>
+                <div class="form-group">
+                    <label for="sujet">Sujet</label>
+                    <select name="sujet" id="sujet">
+                        <option value="collaboration">Collaboration</option>
+                        <option value="recrutement">REcrutement/stage</option>
+                        <option value="autre">Autre demande</option>
+                    </select>
+                </div>
+                        <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" rows="5" placeholder="Votre message ici..."></textarea>
+                        </div>
+            <button type="submit" class="bouton-envoyer">Envoyer</button>
+    </form>
+    <div class="contact-infos">
+                <h3>Mes coordonnées</h3>
+                <p>📧 Email:esthergloriamouckoda@gmail.com</p>
+        <div class="social-links">
+<a href="https://linkedin.com/esthergloriamouckoda@gmail.com" class="social-icon">Linkedin</a>
+<a href="https://github.com/esthergloriamouckoda" class="social-icon">GitHub</a>
+        </div>
+    </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; Gloria Esther-2026</p>
+            <div class="footer-links">
+                 <a href="mailto:esthergloriamouckoda@gmail.com">Email</a>
+                 <a href="https://linkedin.com/esthergloriamouckoda@gmail.com">Linkedin</a>
+                 <a href="https://github.com/esthergloriamouckoda">GitHub</a>
+            </div>
+
+            <a href="#" class="back-to-top">Retour en haut</a>
+        </div>
+    </footer>
+</body>
+
+</html>
